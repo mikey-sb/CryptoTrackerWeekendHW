@@ -1,0 +1,53 @@
+.nav-ul {
+    display: flex;
+    list-style: none;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.coin-ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+}
+
+li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.coin-image {
+    width: 50px;
+    height: 50px;
+    /* position: relative;
+    left: 50px; */
+
+}
+
+.separator {
+    width: 100%;
+    height: 3px;
+    background-color: royalblue;
+    margin-top: -140px;
+    grid-column: 1 / 6;
+    margin-left: 0px;
+    opacity: 0.7;
+}
+
+.list-container {
+    margin-left:20%;
+    margin-right: 20%;
+    
+}
+
+.gainer-container {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
