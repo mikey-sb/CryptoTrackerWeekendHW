@@ -47,7 +47,41 @@ li {
 }
 
 .gainer-container {
-    position: absolute;
-    top: 5%;
-    right: 5%;
+    position:absolute;
+    top:10%;
+    right:5%
+}
+.top-ten-ul, .bottom-ten-ul{
+    list-style: none;
+}
+
+.loser-container {
+    position:absolute;
+    top:10%;
+    left:5%
+}
+
+.bottom-ten-ul{
+    color: red
+}
+.top-ten-ul{
+    color: green
+}
+
+.bottom-ten-ul > li, .top-ten-ul > li {
+    padding: 5px;
+}
+
+.bottomSpan {
+    width: 100px;
+    height: 3px;
+    background-color: red;
+}
+
+
+.change-li-positive {
+    color: green
+}
+.change-li-negative {
+    color: red
 }
